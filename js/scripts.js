@@ -35,5 +35,5 @@ function female(daysOfWeek) {
     }else {
     console.log("Ama");
     }
-    }
+}
     
