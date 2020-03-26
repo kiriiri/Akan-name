@@ -1,10 +1,52 @@
 <html>
     <head>
         <title>Akan Name</title>
-        <link href="css/bootstrap,css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <img src="images/afronation.png" class="img-circle" alt="Afro Nation">
+        <div class="container">
+             <div class="jumbotron">
+                <img src="images/afronation.png" class="img-circle" alt="Afro Nation">
+                    <p>This app was created so as to help people know their Ghana names after submitting a few requirements needed such as<br>
+                        <ul>
+                            <li>The user's birthday date.</li>
+                            <li>Their gender.</li>
+                        </ul>
+                    </p>
+                        <p>After the form requirements have all been filled then you can go ahead and click on the submit button at the bottom<br>
+                           of the page.Afterwards you fill be told your Ghana name based on your inputted birthday date.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="card">
+            <div class="card-body">
+                <h3>Please fill your details in the form below.</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form">
+                            <form action="/action_page.php">
+                                <label for="Date">Date</label><br>
+                                <input type="number" id="Date" value="Date"><br>
+                                <label for="Month">Month</label><br>
+                                <input type="text" id="Month" value="Month"><br>
+                                <label for="Year">Year</label><br>
+                                <input type="number" id="Year" value="Year"><br>
+                                <label for="gender">Male</label><br>
+                                <input type="radio" id="Male" name="gender" value="Male"><br>
+                                <label for="gender">Female</label><br>
+                                <input type="radio" id="Female" name="gender" value="Female"><br>
+                            </form>
+                            <div class="card-footer">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
