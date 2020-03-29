@@ -23,4 +23,18 @@ h3 {
 }
 p.center {
     color:black;
+    text-align:left;
+}
+h2 {
+    text-align: center;
+}
+.column {
+    width: 700px;
+    float:right;
+    margin-top: 100px;
+    margin-left:10px;
+    margin-right: 35px;
+    margin-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 100px;
 }

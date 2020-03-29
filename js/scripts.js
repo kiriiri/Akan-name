@@ -1,15 +1,15 @@
 document.getElementById("submit").addEventListener("click",function(event){
     event.preventDefault()
   })
-function submit_by_Id () {
+function submitData() {
     var dd = document.getElementById("dd").value;
     var mm = document.getElementById("mm").value;
     var yy = document.getElementById("yy").value;
-    var male = document.getElementById("male").value;
-    var female = document.getElementById("female").value;
+    var male = document.getElementById("male").checked;
+    var female = document.getElementById("female").checked;
 }
-var birthDate = new Date(mm + '/' + dd + '/' + yy);
-var dayOfWeek = birthDate.getDay();
+var birthDate = newDate(mm + '/' + dd + '/' + yy);
+var dayOfWeek = birthDate.findDay();
 var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
 "Friday", "Saturday"];
 var months = ["January", "February", "March", "April", "May", "June", "July",
@@ -19,32 +19,32 @@ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 function maleNames(daysOfWeek) {
    if(daysOfWeek === 0) {
    console.log("Your Akan Name is Kwasi");
-   }else if(daysOfWeek === 1) {
+   }else if(dayOfWeek=== 1) {
    console.log("Your Akan Name is Kwadwo");
-   }else if(daysOfWeek === 2) {
+   }else if(dayOfWeek === 2) {
    console.log("Your Akan Name is Kwabena");
-   }else if(daysOfWeek === 3) {
+   }else if(dayOfWeek === 3) {
    console.log("Your Akan Name is Kwaku");
-   }else if(daysOfWeek === 4) {
+   }else if(dayOfWeek === 4) {
    console.log("Your Akan name is Yaw");
-   }else if(daysofWeek === 5) {
+   }else if(dayOfWeek === 5) {
    console.log("Your Akan Name is Kofi");
    }else {
    console.log("Your Akan Name is Kwame");
    }
 }
 function femaleNames(daysOfWeek) {
-    if(daysOfWeek === 0) {
+    if(dayOfWeek === 0) {
     console.log("Your Akan Name is Akosua");
-    }else if(daysOfWeek === 1) {
+    }else if(dayOfWeek === 1) {
     console.log("Your Akan Name is Adwoa");
-    }else if(daysOfWeek === 2) {
+    }else if(dayOfWeek === 2) {
     console.log("Your Akan Name is Abenaa");
-    }else if(daysOfWeek === 3) {
+    }else if(dayOfWeek === 3) {
     console.log("Your Akan Name is Akua");
-    }else if(daysOfWeek === 4) {
+    }else if(dayOfWeek === 4) {
     console.log("Your Akan Name is Yaa");
-    }else if(daysOfWeek === 5) {
+    }else if(dayOfWeek === 5) {
     console.log("Your Akan Name is Afua");
     }else {
     console.log("Your Akan Name is Ama");
