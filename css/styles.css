@@ -31,10 +31,6 @@ h2 {
 .column {
     width: 700px;
     float:right;
-    margin-top: 100px;
-    margin-left:10px;
-    margin-right: 35px;
+    margin-top: 50px;
     margin-bottom: 100px;
-    padding-left: 15px;
-    padding-right: 100px;
 }
