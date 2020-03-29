@@ -23,30 +23,62 @@
             </div>
         <div class="card">
             <div class="card-body">
-                <h3>Please fill your details in the form below.</h3>
+                  <h3>Please fill your details in the form below.</h3>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form">
-                            <form action="/action_page.php">
-                                <label for="Date">Date</label><br>
-                                <input type="number" id="date" value="date"><br>
+                            <form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+                                <label for="date">Date</label><br>
+                                <input type="number" id="dd" value="date" placeholder="31" min="1" max="31" required><br>
                                 <label for="month">Month</label><br>
-                                <input type="text" id="MM" name="month"><br>
-                                <label for="Year">Year</label><br>
-                                <input type="number" id="YY" value="Year"><br>
-                                <label for="gender">Male</label><br>
-                                <input type="radio" id="Male" name="gender" value="Male"><br>
-                                <label for="gender">Female</label><br>
-                                <input type="radio" id="Female" name="gender" value="Female"><br>
+                                <input type="text" id="mm" name="month"><br>
+                                <select class="form_class" id="mm">
+                                    <option>------</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>August</option>
+                                    <option>Septemeber</option>
+                                    <option>October</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                                <div class="form">
+                                    <label for="Year">Year</label><br>
+                                    <input type="number" id="yy" value="Year" placeholder="2020" min="1900" max="2020" required><br>
+                                </div>
+                                <div class="form">
+                                    <p>Select your respective gender.</p>
+                                    <label for="gender">Male</label><br>
+                                    <input type="radio" id="male" name="gender" value="male"><br>
+                                    <label for="gender">Female</label><br>
+                                    <input type="radio" id="female" name="gender" value="female"><br>
+                                </div>
+                                <div class="card-footer">
+                                    <input type="button" name="submit_id" id="btn_id" value="Submit by Id" onclick="submit_by_id()"/>
+                                </div>
                             </form>
-                            <div class="card-footer">
-                                <input type="submit" value="Submit">
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="js/scripts.js"></script>
+            <div class="container">
+                <div class="testbox">
+                    <div class="jumbotron">
+                        <img src = "images/contact.png" class="img-circle" alt="Contact logo">
+                    </div>
+                    <div class="middle">
+                        <b><em><a href="https://mail.google.com/mail/mu/mp/353/#tl/priority/%5Esmartlabel_person">Wkiriiri@gmail.com</a></em></b><br>
+                        <b><em><a href="https://twitter.com/WKiriiri">WKiriiri</a></em></b><br>
+                        <b><em><a href="https://www.instagram.com/_kiriiri__/?hl=en">_kiriiri__</a></em></b><br>
+                    </div>
+                </div>
+            </div>
+            <script src="js/scripts.js"></script>
     </body>
 </html>

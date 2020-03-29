@@ -23,4 +23,4 @@ If you come across any issue while using this website,please feel free to contac
 
 ### License
 MIT LICENSE
-Copyright (c) [2020] [Stacy Kiriiri]
+Copyright (c) 2020 Stacy Kiriiri
