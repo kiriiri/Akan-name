@@ -1,16 +1,15 @@
+document.getElementById("submit").addEventListener("click",function(event){
+    event.preventDefault()
+  })
 function submit_by_Id () {
-    var Date = document.getElementById("dd").value;
-    var Month = document.getElementById("mm").value;
-    var Year = document.getElementById("yy").value;
-    var Male = document.getElementById("male").value;
-    var Female = document.getElementById("female").value;
-    if (validation())
-    {
-        document.getElementById("form_id").submit();
-        alert("Date :" + dd + "n Month : " + mm + " n Year : " + yy + " n Male : " + male +" n Female : " + female 
-        + "n Form Id :" + document.getElementById("form_id").getAttribute("id") + " nn Form Submitted Successfully.");
-    }
+    var dd = document.getElementById("dd").value;
+    var mm = document.getElementById("mm").value;
+    var yy = document.getElementById("yy").value;
+    var male = document.getElementById("male").value;
+    var female = document.getElementById("female").value;
 }
+var birthDate = new Date(mm + '/' + dd + '/' + yy);
+var dayOfWeek = birthDate.getDay();
 var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
 "Friday", "Saturday"];
 var months = ["January", "February", "March", "April", "May", "June", "July",
