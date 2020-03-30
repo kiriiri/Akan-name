@@ -1,6 +1,6 @@
 # Akan Name App
 
-This project displays the Ghana names assigned to children based on the day they were born , 26/03/2020
+This project displays the Ghana names assigned to children based on the day they were born,month year and gender, 26/03/2020
 
 By Stacy Kiriiri
 
@@ -28,4 +28,4 @@ If you come across any issue while using this website,please feel free to contac
 
 ### License
 
-MIT Copyright (c) Stacy Kiriiri
+MIT Copyright (c) stacykiriiri
