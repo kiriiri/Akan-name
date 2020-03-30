@@ -21,10 +21,6 @@ h3 {
     padding:8px;
     width:100%;
 }
-p.center {
-    color:black;
-    text-align:left;
-}
 h2 {
     text-align: center;
 }
@@ -33,4 +29,10 @@ h2 {
     float:right;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+p.center {
+    color:black;
+    text-align:left;
 }
