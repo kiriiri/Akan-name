@@ -24,15 +24,21 @@ function submitData() {
 
     if(dd<=0 || dd>31) {
         document.getElementById("invalid").innerText="Enter a valid date"
-    }else if(mm<=0 || mm>12) {
+        document.getElementById("invalid").style.color="purple"
+    }else if(mm === "----") {
         document.getElementById("invalid1").innerText="Kindly enter a month"
+        document.getElementById("invalid1").style.color="purple"
     }else if(yy<1900 || yy>2020) {
             document.getElementById("invalid2").innerText="Kindly enter the year"
+            document.getElementById("invalid2").style.color="purple"
     }else if(male === true) {
-            document.getElementById("results").innerHTML="Your birthday is" + daysOfWeek[day] + ".\n" + "Your Akan Name is" + maleNames[day]
+            document.getElementById("results").innerHTML="Your birthday is" + daysOfWeek[day] + "." + "Your Akan Name is" + maleNames[day]
+            document.getElementById("results").style.color="black"
     }else if(female === true) {
-            document.getElementById("results").innerHTML="Your birthday is" + daysOfWeek[day] + ".\n" + "Your Akan Name is" + femaleNames[day]
+            document.getElementById("results").innerHTML="Your birthday is" + daysOfWeek[day] + "." + "Your Akan Name is" + femaleNames[day]
+            document.getElementById("results").style.color="black"
     }else if (female === false && male === false) {
             document.getElementById("invalid3").innerText="Select a gender"
+            document.getElementById("invalid3").style.color="purple"
     }
 }

@@ -28,7 +28,7 @@
                         <div id="results">
                             <form>
                                 <label for="date">Date</label><br>
-                                <input type="number" id="dd" value="date" min="1" max="31" required><span id="invalid"></span><br>
+                                <input type="number" id="dd" value="date" min="1" max="31" required><div id="invalid"></div><br>
                                 <label for="month">Month</label><br>
                                 <select id="mm" required>
                                     <option>----</option>
@@ -44,17 +44,17 @@
                                     <option>October</option>
                                     <option>November</option>
                                     <option>December</option>
-                                </select><span id="invalid1"></span>
+                                </select><div id="invalid1"></div>
                                 <div class="form">
                                     <label for="Year">Year</label><br>
-                                    <input type="number" id="yy" value="Year" min="1900" max="2020" required><span id="invalid2"></span><br>
+                                    <input type="number" id="yy" value="Year" min="1900" max="2020" required><div id="invalid2"></div><br>
                                 </div>
                                 <div class="form">
                                     <p>Select your respective gender.</p>
                                     <label for="gender">Male</label><br>
                                     <input type="radio" id="male" name="gender" value="male"><br>
                                     <label for="gender">Female</label><br>
-                                    <input type="radio" id="female" name="gender" value="female"><span id="invalid3"></span><br>
+                                    <input type="radio" id="female" name="gender" value="female"><div id="invalid3"></div><br>
                                 </div>
                                 <div class="button">
                                     <button type="submit" onclick = "submitData(); return false;" name="submit" id="submit" value="Submit"><b>Your Akan Name</b></button>
