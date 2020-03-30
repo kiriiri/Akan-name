@@ -12,7 +12,9 @@ details such as their birthday date,month,year and their gender.
 ## Setup/Installation Requirements
 
 1.Ensure you have good Internet connection.
+
 2.Clone the website from the repository.
+
 3.View the website in your computer.
 
 ## Known Bugs
