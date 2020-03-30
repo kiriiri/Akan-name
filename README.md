@@ -29,6 +29,6 @@ While creating this website I used HTML,CSS and Javascript.
 
 If you come across any issue while using this website,please feel free to contact me so that we can find a way to solve your problem.If you feel you can contribute code to this website please contact me.You can find my contact information at the end of this website
 
-### [License](https://github.com/Akan-name/blob/master/LICENSE)
+### [License](https://github.com/kiriiri/Akan-name/blob/master/LICENSE)
 
 Copyright (c) 2020 [Stacy Kiriiri](https://github.com/kiriiri)
