@@ -32,10 +32,10 @@ function submitData() {
             document.getElementById("invalid2").innerText="Kindly enter the year"
             document.getElementById("invalid2").style.color="purple"
     }else if(male === true) {
-            document.getElementById("results").innerHTML="Your birthday is " + daysOfWeek[day] + ".\n" + "Your Akan Name is " + maleNames[day]
+            document.getElementById("results").innerHTML="Your birthday is " + daysOfWeek[day] + "." + "Your Akan Name is " + maleNames[day]
             document.getElementById("results").style.color="black"
     }else if(female === true) {
-            document.getElementById("results").innerHTML="Your birthday is " + daysOfWeek[day] + ".\n" + "Your Akan Name is " + femaleNames[day]
+            document.getElementById("results").innerHTML="Your birthday is " + daysOfWeek[day] + "." + "Your Akan Name is " + femaleNames[day]
             document.getElementById("results").style.color="black"
     }else if (female === false && male === false) {
             document.getElementById("invalid3").innerText="Select a gender"
