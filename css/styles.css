@@ -25,14 +25,14 @@ h2 {
     text-align: center;
 }
 .column {
-    width: 700px;
+    width:700px;
     float:right;
-    margin-top: 50px;
+    margin-top:50px;
     margin-bottom: 100px;
     margin-right: 100px;
     margin-left: 100px;
 }
-p.center {
+p.left {
     color:black;
     text-align:left;
 }
